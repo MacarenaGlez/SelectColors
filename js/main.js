@@ -4,8 +4,8 @@ let text = document.querySelector(".blackboard-text");
 const colors = ["Blanco", "Azul", "Verde", "Rojo", "Amarillo", "Rosa"];
 
 function writePenalty() {
-  for (let i = 0; i < 50; i++) {
-    const textRepeat = "Selecciona un color";
+  for (let i = 0; i < 20; i++) {
+    const textRepeat = "Colorín colorado, cuál es tu color seleccionado";
     const newLi = document.createElement("li");
     const newContent = document.createTextNode(textRepeat);
     text.appendChild(newLi);
