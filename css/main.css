@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  line-height: 1;
+  list-style: none;
+  quotes: none;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper-blackboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.blackboard-text {
+  font-family: "Chalkboard", cursive;
+  line-height: 2.5rem;
+
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: forestgreen;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.pink {
+  color: hotpink;
+}
